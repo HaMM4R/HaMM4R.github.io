@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>RhythmTrain</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+					<h1><a href="index.html">Reece Godfrey</a></h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html#portfolio">Portfolio</a></li>
+							<li><a href="index.html#contact">Contact Me</a></li>
+						</ul>
+					</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								<header>
+									<h2 style="text-align: center;">RhythmTrain</h2>
+									<p></p>
+									<p></p>
+
+								</header>
+								<a class="image featured"><img src="images/rtbanner.JPG" alt="Image of RhythmTrain" /></a>
+
+								<p>
+									RhythmTrain is an open-source sight-reading trainer app designed to help users learn and improve their classic
+									 western music notation reading abilities. It is the platform I’m using to run my master’s experiment to observe
+									  the effects of leaderboards on engagement on gamified platforms. 
+								</p>
+								<p>
+									The project was started by me last year for my undergraduate studies and was originally programmed in Python using
+									 the Kivy graphics library for mobile. The library was cumbersome and difficult to develop with but being python based,
+									  afforded us the ability to run beat detection algorithms and had support for MP3 playback, something missing from other
+									   open-source alternatives. The original idea was to have the game detect the beats in a users own music collection and
+									    display random rhythms, but due to the inaccuracy of these techniques, we opted for a less dynamic approach. It was 
+										still possible to add a user’s own songs to the game, but adding these required users to either map the beats to the 
+										song, or choose songs that had a static tempo with the application then creating the beats. The original prototype can 
+										be seen in the image below. 
+								</p>
+								<a class="image featured" style="padding-top: 50px;"><img src="images/rtold.png" alt="Image of RhythmTrain" /></a>
+								<p>
+									For my masters, it was decided to recreate the project in a more suitable environment. We opted for Godot as it had come a long way 
+									since my initial analysis of platforms a year prior and now had mp3 support. I worked closely with an undergraduate student who began
+									 work on building the software for his dissertation, while I designed the application, started researching and designed the experiment 
+									 that would surround the app. 
+								</p>
+								<p>
+									The undergraduate has since finished his dissertation and provided me a fantastic base to work on. I have since taken over primary development
+									 with a focus on polish, game features, building the database and integrating the game with a REST api. We’ve opted to use Supabase to store our
+									  data (an open-source firebase alternative) with the systems for this interaction being built by me. For a comprehensive list of the features 
+									  I’ve worked on, please see the Gitlab below, the application is open-source so feel free to poke around in the code and maybe compile it for 
+									  yourself!
+								</p>
+								<section>
+									<header>
+										<h3>Links to Repositories</h3>
+									</header>
+									<ul style="text-align: left">
+										<li>RhythmTrain Godot (latest work is in develop-supabase branch): <a style="text-decoration: none;" href="https://gitlab.com/HaMM4R/RhythmTrainGodot/-/tree/develop-supabase">https://gitlab.com/HaMM4R/RhythmTrainGodot/-/tree/develop-supabase</a> </li>
+										<li>RhythmTrain Kivy: <a style="text-decoration: none;" href="https://github.com/HaMM4R/SightRead">https://github.com/HaMM4R/SightRead</a> </li>
+
+									</ul>
+								</section>
+							</article>
+
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<div class="row">
+
+						
+						
+						<div class="col-4 col-12-medium">
+							<section>
+								<header>
+									<a id="contact"><h2>Contact Me!</h2></a>
+								</header>
+
+								<ul class="contact">
+									<li>
+										<h3>Address</h3>
+										<p>
+											103 St. Andrews Street,<br />
+											Lincoln,<br />
+											LN5 7UE
+										</p>
+									</li>
+									<li>
+										<h3>Mail</h3>
+										<p><a href="#">reecegodfrey1997@outlook.com</a></p>
+									</li>
+									<li>
+										<h3>Phone</h3>
+										<p>07956 509048</p>
+									</li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-12">
+
+							<!-- Copyright -->
+								<div id="copyright">
+									<ul class="links">
+										<li>Design modified from: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
