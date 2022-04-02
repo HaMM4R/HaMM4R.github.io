@@ -102,7 +102,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: rgb(26, 26, 26);
+		color: rgb(0, 0, 0);
 		font-size: 14pt;
 		line-height: 1.75em;
 	}
@@ -1443,7 +1443,7 @@ input, select, textarea {
 
 	form label {
 		display: block;
-		color: #252122;
+		color: #070707;
 		font-weight: 400;
 		margin: 0 0 0.5em 0;
 	}
@@ -2074,7 +2074,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			color: #252122;
+			color: #111111;
 			font-weight: 900;
 			font-size: 3.5em;
 			letter-spacing: -0.035em;
@@ -2103,7 +2103,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #3b3b3b;
+					color: #181818;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2289,7 +2289,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: #b4b4b4;
 		padding: 4em 0;
 	}
 
@@ -2605,7 +2605,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #969696;
+						background-color: #000000;
 					}
 
 			#navPanel {
